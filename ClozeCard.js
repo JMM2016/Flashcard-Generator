@@ -17,3 +17,7 @@ function ClozeCard (text, cloze) {
     return new ClozeCard (text, cloze);
   }	
 }
+
+ClozeCard.prototype.display = function() {
+  console.log(this);
+}

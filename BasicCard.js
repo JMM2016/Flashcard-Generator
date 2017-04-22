@@ -8,3 +8,7 @@ function BasicCard (front, back) {
     return new BasicCard(front, back);
   }	
 }
+
+BasicCard.prototype.display = function() {
+	console.log(this);
+}
